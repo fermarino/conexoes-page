@@ -1,0 +1,27 @@
+:root {
+  --primary-font: 'Poppins', sans-serif;
+  --primary-color: #1815C8;
+  --primary-pink: #e20f97;
+  --light-blue: #2A0BEA;
+  --details-blue: #3300FF;
+  --pink-details: #a70059c9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+   background: rgb(24,21,200);
+  background: linear-gradient(0deg, rgba(24,21,200,1) 0%, rgba(42,11,234,1) 100%); 
+  font-family: var(--primary-font);
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
